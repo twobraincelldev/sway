@@ -4,7 +4,7 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-output DP-2 pos 0 0 res 1280x960
+output DP-2 pos 0 0 res 1680x1050
 
 ### Variables
 #
@@ -206,7 +206,5 @@ bar {
 default_border pixel 2
 gaps outer 3
 gaps inner 3
-
-client.focused  #DDB6F2 #ddb6f2 #cccad1 #DDB6F2
 
 include /etc/sway/config.d/*
